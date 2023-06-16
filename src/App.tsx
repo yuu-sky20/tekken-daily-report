@@ -1,12 +1,10 @@
 import React from 'react';
-import 'ag-grid-enterprise';
-import 'ag-grid-community/styles/ag-grid.css';
-import 'ag-grid-community/styles/ag-theme-alpine.css';
-
+import {FormGrid} from './Components/FormGrid'
+import '@acab/reset.css';
 function App() {
   return (
     <div className="App">
-
+      <FormGrid></FormGrid>
     </div>
   );
 }
